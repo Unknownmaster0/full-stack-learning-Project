@@ -1,15 +1,19 @@
 {
   "name": "full-backend-project",
   "version": "1.0.0",
-  "description": "this is learning project for full-stack course by Hitesh Choudhary",
+  "description": "this is learning project for full-stack course with Hitesh Choudhary Sir",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./src/index.js"
   },
   "keywords": [
     "javascript",
     "unknown"
   ],
   "author": "Sagar Singh",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
